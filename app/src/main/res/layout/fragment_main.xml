@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hero_bg_gradient"
+    tools:context="com.example.aaryn.herome.Fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_banner_bar"
+            android:minHeight="?attr/actionBarSize">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How did you get your powers?"
+            android:textAlignment="center"
+            android:textColor="#fac740"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/heroes" />
+
+
+        <Button
+            android:id="@+id/accidentBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/button_base"
+            android:drawableLeft="@drawable/lightning"
+            android:drawableRight="@drawable/item_selected_transparent"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textColor="#fac740" />
+
+        <Button
+            android:id="@+id/geneticBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/genetic_mutation_powers"
+            android:drawableLeft="@drawable/atomic"
+            android:drawableRight="@drawable/item_selected_transparent"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textColor="#fac740" />
+
+        <Button
+            android:id="@+id/bornBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/born_with_them_powers"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textColor="#fac740" />
+
+        <Button
+            android:id="@+id/chooseBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/choose_powers_button"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:textColor="#fac740" />
+
+    </LinearLayout>
+
+</FrameLayout>
